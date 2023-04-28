@@ -26,13 +26,9 @@ def change_color():
 
 
 
-
-
 def change_font(*args):
 
     text_area.config(font=(font_name.get(), size_box.get()))
-
-
 
 
 
@@ -41,8 +37,6 @@ def new_file():
     window.title("Untitled")
 
     text_area.delete(1.0, END)
-
-
 
 
 
